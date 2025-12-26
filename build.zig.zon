@@ -9,13 +9,13 @@
         "build.zig.zon",
     },
     .dependencies = .{
-        .expat = .{
-            .url = "git+https://github.com/allyourcodebase/libexpat.git#2.7.1",
-            .hash = "libexpat-2.7.1-y_akI1M7AAA1huPJVegH4dosRVA-lMRgzMuX9vC7aB1s",
-        },
         .libzip = .{
-            .url = "git+https://github.com/allyourcodebase/libzip.git#1.11.2",
-            .hash = "libzip-1.11.2-WX_L8Ck4AADFFAXJ5QvIrrZ9osNgIQJWPgih_6rg8K97",
+            .url = "git+https://github.com/sashka/libzip?ref=master#fd3051f719aee93872a55f554b0b3fc5270aab21",
+            .hash = "libzip-1.11.2-WX_L8EQ4AAC9YSQ1dhuNALqIuIPgZNkBdjQ0Ki7wC_W3",
+        },
+        .libexpat = .{
+            .url = "git+https://github.com/allyourcodebase/libexpat?ref=master#1b841984a4916eacdd6a734ff2b1920a4eb6d800",
+            .hash = "libexpat-2.7.1-1-y_akI9Y7AAAtW8BtrL7d8B69e0WpkVP7JKxdWpeUGf_W",
         },
     },
     .fingerprint = 0x402b2efec66e6e02,
